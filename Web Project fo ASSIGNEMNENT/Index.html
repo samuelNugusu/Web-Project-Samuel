@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Advisor Finder</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="images/haramaya.jpg" alt="">
+      <h1 style="">Research Advisor Finder</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#advisors">Advisors</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="login-container">
+    <h2 class="log">Login</h2>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required> <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      <button type="submit" class="login">Login</button>
+      <p>Don’t have an account? <br><em>Create a new account</em> </p>
+      <button>Sign up</button>
+    </form>
+  </div>
+
+<main>
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p style="font-family: italic;font-weight:700">Find the best research advisors based on their expertise.</p>
+        <div class="profile-container">
+          <div class="profile-content">
+            <p>Dr. John Doe</p>
+            <p>John Doe is an Associate Professor of Computer Science at UCLA, wit  h a Ph.D. from UC Berkeley. His research focuses on
+            artificial intelligence, machine learning, and natural language processing. He has worked as a research scientist at
+            Google, published numerous papers, and presented at various conferences. John is actively involved in the academic
+            community and has received several awards, including a National Science Foundation grant and a Google Faculty Research
+            Award. He is also a dedicated educator, teaching courses on AI and programming.</p>
+          </div>
+          <div class="profile-image">
+            <img src="images/john.jpg" alt="Research Advisor Finder">
+          </div>
+        </div>
+
+
+
+        <div class="profile-container">
+          <div class="profile-content">
+            <p>Dr. Jane Smith</p>
+            <p>Dr. Jane Smith is a renowned researcher and practitioner at the forefront of AI applications in healthcare. With a
+            career spanning over two decades, she has been instrumental in integrating AI technologies into clinical practice,
+            significantly improving diagnostic accuracy and patient outcomes..</p>
+          </div>
+          <div class="profile-image">
+            <img src="images/jane.jpg" alt="Research Advisor Finder">
+          </div>
+        </div>
+        
+
+
+          <div class="profile-container">
+            <div class="profile-content">
+              <p>Dr. Emily Johnson</p>
+              <p>Dr. Emily Johnson focuses on the diagnosis and treatment of epilepsy and seizures. Dr. Johnson has a clinical interest
+              in women of childbearing age with epilepsy. Her research interests also include new-onset, unexplained seizures in older
+              adults.</p>
+            </div>
+            <div class="profile-image">
+              <img src="images/emily.jpg" alt="Research Advisor Finder">
+            </div>
+          </div>
+          
+
+
+            <div class="profile-container">
+              <div class="profile-content">
+                <p>Dr. Michael Brown</p>
+                <p>Michael S. Brown, born on April 13, 1941, in New York, is a Nobel laureate who received the Nobel Prize in Physiology or
+                Medicine in 1985. He was affiliated with the University of Texas Southwestern Medical Center at Dallas at the time of
+                the award. Brown, along with Joseph Goldstein, discovered the receptor in cells that takes in cholesterol and clarified
+                how cholesterol conversion is regulated by genes and other substances. Their discoveries laid the foundation for
+                statins, medications that reduce cholesterol levels in the blood</p>
+              </div>
+              <div class="profile-image">
+                <img src="images/michael.jpg" alt="Research Advisor Finder">
+              </div>
+            </div>
+      
+      </div>
+    </section>
+    <section id="advisors">
+      <div class="container">
+        <h2>Advisors</h2>
+        <input type="text" id="search" placeholder="Search by expertise...">
+        <ul id="advisor-list">
+          <!-- List of advisors will be populated here -->
+        </ul>
+      </div>
+    </section>
+
+
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <p>Explore the latest research projects led by our advisors.</p>
+    <div class="project-grid">
+      <!-- Project cards will be populated here -->
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <p>Hear from students and researchers who have worked with our advisors.</p>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <img src="images/student1.jpg"  alt="Student 1">
+        <p>"Working with Dr. John Doe was an incredible experience. His expertise in AI and machine learning is unparalleled."</p>
+        <p>- Student 1</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/student2.jpg"  alt="Student 2">
+        <p>"Dr. Jane Smith's guidance on my research project was invaluable. I learned so much from her."</p>
+        <p>- Student 2</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/student3.jpg" alt="Student 3">
+        <p>"The support and mentorship I received from Dr. Emily Johnson were crucial to my success."</p>
+        <p>- Student 3</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required> <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+<div class="contact-info">
+  <form action="">
+    <label for="email">Email: ResearchAdvisor@gmail.com</label> <br>
+    <label for="phone">Phone: +251912131415</label>
+  </form>
+</div>
+
+  
+</section>
+
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Research Advisor Finder</p>
+      <button id="back-to-top"><i class="fas fa-arrow-up"></i> Back to Top</button>
+    </div>
+  </footer>
+  <!-- Link to JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+
+</html>
